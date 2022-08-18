@@ -151,7 +151,7 @@ completeLastTransaction(options: { status: string; }) => Promise<void>
 
 #### PaymentNetwork
 
-<code>'mastercard' | 'visa' | 'amex' | 'quicPay' | 'chinaUnionPay' | 'discover' | 'interac' | 'privateLabel'</code>
+<code>'masterCard' | 'visa' | 'amex' | 'quicPay' | 'chinaUnionPay' | 'discover' | 'interac' | 'privateLabel'</code>
 
 
 #### MerchantCapability

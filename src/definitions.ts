@@ -9,7 +9,7 @@ export interface ApplePayPlugin {
 //   echo(options: { value: string }): Promise<{ value: string }>;
 // }
 
-export declare type PaymentNetwork = 'mastercard' | 'visa' | 'amex' | 'quicPay' | 'chinaUnionPay' | 'discover' | 'interac' | 'privateLabel';
+export declare type PaymentNetwork = 'masterCard' | 'visa' | 'amex' | 'quicPay' | 'chinaUnionPay' | 'discover' | 'interac' | 'privateLabel';
 export declare type PaymentSummaryItemType = 'pending' | 'final';
 export declare type ContactField = 'emailAddress' | 'name' | 'phoneNumber' | 'phoneticName' | 'postalAddress';
 export declare type MerchantCapability = 'capability3DS' | 'capabilityCredit' | 'capabilityDebit' | 'capabilityEMV';

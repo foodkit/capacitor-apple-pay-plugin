@@ -275,7 +275,7 @@ public class ApplePayPlugin: CAPPlugin, PKPaymentAuthorizationControllerDelegate
 
     func convertPaymentSystem(_ item: String) -> PKPaymentNetwork? {
         switch item {
-        case "mastercard": return PKPaymentNetwork.masterCard
+        case "masterCard": return PKPaymentNetwork.masterCard
         case "visa": return PKPaymentNetwork.visa
         case "amex": return PKPaymentNetwork.amex
         case "quicPay": return PKPaymentNetwork.quicPay
